@@ -49,6 +49,7 @@ body {
   position: absolute;
   border: 1px solid black;
   border-radius: 5px;
+  /* play with below property for different renders */
   background-color: white;
   box-shadow: rgba(0, 0, 0, 0.75) 0px 5px 15px;
 }
