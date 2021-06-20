@@ -72,3 +72,83 @@ body {
   position: absolute;
   opacity: 0.75;
 }
+
+.one {
+  height: 350px;
+  width: 500px;
+  position: absolute;
+  border: 1px solid red;
+  border-radius: 3px;
+  bottom: -20%;
+  right: -5%;
+}
+
+.two {
+  height: 400px;
+  width: 300px;
+  position: absolute;
+  border: 1px solid red;
+  border-radius: 3px;
+  top: -1%;
+  right: 55%;
+}
+
+.three {
+  height: 350px;
+  width: 500px;
+  position: absolute;
+  border: 1px solid red;
+  border-radius: 3px;
+  bottom: 10%;
+  left: -1%;
+}
+
+.four {
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  border: 1px solid red;
+  border-radius: 3px;
+  top: 25%;
+  right: 20%;
+}
+
+.five {
+  height: 500px;
+  width: 100px;
+  position: absolute;
+  border: 1px solid red;
+  border-radius: 3px;
+  bottom: 20%;
+  right: 5%;
+}
+
+.six {
+  height: 450px;
+  width: 1000px;
+  position: absolute;
+  border: 1px solid red;
+  border-radius: 3px;
+  bottom: -1%;
+  left: 7%;
+}
+
+.seven {
+  height: 200px;
+  width: 700px;
+  position: absolute;
+  border: 1px solid red;
+  border-radius: 3px;
+  bottom: -5%;
+  left: 35%;
+}
+
+.eight {
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  border: 1px solid red;
+  border-radius: 3px;
+  bottom: -5%;
+  left: 10%;
+}
