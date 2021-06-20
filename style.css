@@ -7,6 +7,8 @@
   box-sizing: border-box;
 }
 
+/* General */
+
 body {
   font-family: "Roboto Mono", monospace;
   display: flex;
@@ -24,6 +26,8 @@ body {
   z-index: -1000;
   flex-direction: column;
 }
+
+/* Text */
 
 .name {
   font-size: 45px;
@@ -44,6 +48,8 @@ body {
   top: 54%;
   right: 46%;
 }
+
+/* boxes */
 
 .square {
   position: absolute;
