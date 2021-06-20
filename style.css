@@ -26,79 +26,51 @@ body {
 }
 
 .name {
-  font-size: 55px;
+  font-size: 45px;
   font-weight: bolder;
   z-index: 100;
   color: black;
+  position: absolute;
+  top: 39%;
+  right: 50%;
 }
 
 .description {
   z-index: 100;
-  font-size: 25px;
+  font-size: 15px;
   font-weight: bold;
   color: black;
+  position: absolute;
+  top: 54%;
+  right: 46%;
 }
 
-.small-square {
-  height: 50px;
-  width: 50px;
-  background-color: white;
-  border: 1px solid black;
-  box-shadow: rgba(0, 0, 0, 0.75) 0px 5px 15px;
-  border-radius: 10px;
+.square {
   position: absolute;
-  z-index: 1;
-  opacity: 0.75;
-}
-
-.med-square {
-  height: 100px;
-  width: 100px;
-  background-color: white;
   border: 1px solid black;
-  box-shadow: rgba(0, 0, 0, 0.75) 0px 5px 15px;
-  border-radius: 10px;
-  position: absolute;
-  opacity: 0.75;
-}
-
-.big-square {
-  height: 200px;
-  width: 200px;
+  border-radius: 5px;
   background-color: white;
-  border: 1px solid black;
   box-shadow: rgba(0, 0, 0, 0.75) 0px 5px 15px;
-  border-radius: 10px;
-  position: absolute;
-  opacity: 0.75;
 }
 
 .one {
   height: 350px;
   width: 500px;
-  position: absolute;
-  border: 1px solid black;
-  border-radius: 3px;
   bottom: -20%;
   right: -5%;
 }
 
 .two {
-  height: 400px;
+  height: 150px;
   width: 300px;
-  position: absolute;
-  border: 1px solid black;
-  border-radius: 3px;
   top: -1%;
   right: 55%;
+  z-index: 1;
 }
 
 .three {
   height: 350px;
-  width: 500px;
-  position: absolute;
-  border: 1px solid black;
-  border-radius: 3px;
+  width: 375px;
   bottom: 10%;
   left: -1%;
 }
@@ -106,19 +78,14 @@ body {
 .four {
   height: 300px;
   width: 300px;
-  position: absolute;
-  border: 1px solid black;
-  border-radius: 3px;
   top: 25%;
-  right: 20%;
+  right: 19%;
+  z-index: 1;
 }
 
 .five {
   height: 500px;
   width: 100px;
-  position: absolute;
-  border: 1px solid black;
-  border-radius: 3px;
   bottom: 20%;
   right: 5%;
 }
@@ -126,9 +93,6 @@ body {
 .six {
   height: 450px;
   width: 1000px;
-  position: absolute;
-  border: 1px solid black;
-  border-radius: 3px;
   bottom: -1%;
   left: 7%;
 }
@@ -136,19 +100,21 @@ body {
 .seven {
   height: 200px;
   width: 700px;
-  position: absolute;
-  border: 1px solid black;
-  border-radius: 3px;
   bottom: -5%;
   left: 35%;
 }
 
 .eight {
   height: 300px;
-  width: 300px;
-  position: absolute;
-  border: 1px solid black;
-  border-radius: 3px;
+  width: 320px;
   bottom: -5%;
-  left: 10%;
+  left: 1%;
+  z-index: 2;
+}
+
+.nine {
+  height: 200px;
+  width: 700px;
+  top: -1%;
+  right: -1%;
 }
